@@ -6,13 +6,34 @@
     - [小程序启动](/mini-app/quick-start/startUp.md)
     - [小程序通信](/mini-app/quick-start/communication.md)
 - [常用SDK](/custom-sdk/index.md)
-    - [启动/关闭](/custom-sdk/MiniAppBootstrapService.md)
-    - [全局提示框](/custom-sdk/MiniAppToastService.md)
-    - [获取方案信息](/custom-sdk/MiniAppDesignBaseInfoService.md)
-    - [获取选中模型尺寸](/custom-sdk/MiniAppSelectInnerSpaceService.md)
-    - [模型显示/隐藏](/custom-sdk/MiniAppModelVisibleService.md)
-    - [获取模型数量](/custom-sdk/MiniAppParamModelService.md)
-    - [模型选中](/custom-sdk/MiniAppSelectModelService.md)
+    - MiniAppBootstrapService
+        - [loadMode](/custom-sdk/MiniAppBootstrapService/loadMode.md)
+        - [close](/custom-sdk/MiniAppBootstrapService/close.md)
+        - [isOpened](/custom-sdk/MiniAppBootstrapService/isOpened.md)
+    - MiniAppToastService
+        - [success](/custom-sdk/MiniAppToastService/success.md)
+        - [error](/custom-sdk/MiniAppToastService/error.md)
+        - [info](/custom-sdk/MiniAppToastService/info.md)
+        - [warn](/custom-sdk/MiniAppToastService/warn.md)
+        - [loading](/custom-sdk/MiniAppToastService/loading.md)
+    - MiniAppDesignBaseInfoService
+        - [getDesignBaseInfo](/custom-sdk/MiniAppDesignBaseInfoService/getDesignBaseInfo.md)
+    - MiniAppSelectInnerSpaceService
+        - [getSelectedInnerSpace](/custom-sdk/MiniAppSelectInnerSpaceService/getSelectedInnerSpace.md)
+        - [unSelected](/custom-sdk/MiniAppSelectInnerSpaceService/unSelected.md)
+        - [watcher](/custom-sdk/MiniAppSelectInnerSpaceService/watcher.md)
+    - MiniAppModelVisibleService
+        - [showModelByCateId](/custom-sdk/MiniAppModelVisibleService/showModelByCateId.md)
+    - MiniAppParamModelService
+        - [getParamModelCountByCategory](/custom-sdk/MiniAppParamModelService/getParamModelCountByCategory.md)
+        - [remove](/custom-sdk/MiniAppParamModelService/remove.md)
+    - MiniAppSelectModelService
+        - [getSelected](/custom-sdk/MiniAppSelectModelService/getSelected.md)
+        - [unSelected](/custom-sdk/MiniAppSelectModelService/unSelected.md)
+        - [watcher](/custom-sdk/MiniAppSelectModelService/watcher.md)
+        - [select](/custom-sdk/MiniAppSelectModelService/select.md)
+        - [setSelectAbleByCategories](/custom-sdk/MiniAppSelectModelService/setSelectAbleByCategories.md)
+        - [setSelectedByCategories](/custom-sdk/MiniAppSelectModelService/setSelectedByCategories.md)
 - [servkit](/servkit)
     - [介绍](/servkit/index.md)
     - [快速开始](/servkit/quick-start/index.md)
