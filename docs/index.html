@@ -56,7 +56,7 @@
       // 启用js脚本
       executeScript: true,
       // 更新时间显示变量
-      formatUpdated: "<div style='text-align: right; color: #42b983'>上次更新于：{YYYY}/{MM}/{DD} {HH}:{mm}:{ss}</div>",
+      formatUpdated: "<div style='text-align: left; color: rgba(17,31,44,0.40)'>更新于：{YYYY}/{MM}/{DD} {HH}:{mm}:{ss}</div>",
       // 路由模式 hash | history
       routerMode: "hash",
       // 显示404页面
@@ -132,5 +132,7 @@
   <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
   <!-- 提示面板 -->
   <script src="./plugin/flexible-alerts.js"></script>
+  <!-- 左侧菜单折叠 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
 </body>
 </html>

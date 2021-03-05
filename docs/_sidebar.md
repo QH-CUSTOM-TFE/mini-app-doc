@@ -3,11 +3,35 @@
     <!-- - [小程序接入指南](/QuickStart/accessGuide.md) -->
 - [小程序启动](/QuickStart/startUp.md)
 - [小程序通信](/QuickStart/communication.md)
-- [常用SDK](/Service/index.md)
-    - [全局提示框](/Service/MiniAppToastService.md)
-    - [获取方案信息](/Service/MiniAppDesignBaseInfoService.md)
-    - [启动/关闭](/Service/MiniAppBootstrapService.md)
-    - [获取选中模型尺寸](/Service/MiniAppSelectInnerSpaceService.md)
+- API
+    - MiniAppBootstrapService
+        - [loadMode](/Service/MiniAppBootstrapService/loadMode.md)
+        - [close](/Service/MiniAppBootstrapService/close.md)
+        - [isOpened](/Service/MiniAppBootstrapService/isOpened.md)
+    - MiniAppToastService
+        - [success](/Service/MiniAppToastService/success.md)
+        - [error](/Service/MiniAppToastService/error.md)
+        - [info](/Service/MiniAppToastService/info.md)
+        - [warn](/Service/MiniAppToastService/warn.md)
+        - [loading](/Service/MiniAppToastService/loading.md)
+    - MiniAppDesignBaseInfoService
+        - [getDesignBaseInfo](/Service/MiniAppDesignBaseInfoService/getDesignBaseInfo.md)
+    - MiniAppSelectInnerSpaceService
+        - [getSelectedInnerSpace](/Service/MiniAppSelectInnerSpaceService/getSelectedInnerSpace.md)
+        - [unSelected](/Service/MiniAppSelectInnerSpaceService/unSelected.md)
+        - [watcher](/Service/MiniAppSelectInnerSpaceService/watcher.md)
+    - MiniAppModelVisibleService
+        - [showModelByCateId](/Service/MiniAppModelVisibleService/showModelByCateId.md)
+    - MiniAppParamModelService
+        - [getParamModelCountByCategory](/Service/MiniAppParamModelService/getParamModelCountByCategory.md)
+        - [remove](/Service/MiniAppParamModelService/remove.md)
+    - MiniAppSelectModelService
+        - [getSelected](/Service/MiniAppSelectModelService/getSelected.md)
+        - [unSelected](/Service/MiniAppSelectModelService/unSelected.md)
+        - [watcher](/Service/MiniAppSelectModelService/watcher.md)
+        - [select](/Service/MiniAppSelectModelService/select.md)
+        - [setSelectAbleByCategories](/Service/MiniAppSelectModelService/setSelectAbleByCategories.md)
+        - [setSelectedByCategories](/Service/MiniAppSelectModelService/setSelectedByCategories.md)
 - [项目实战](/a)
 - [常见问题](/b)
 - [变更日志](/c)
