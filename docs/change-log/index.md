@@ -1,0 +1,4 @@
+- ### 0.0.2
+    - 发布小程序SDK [@manycore/custom-miniapp-sdk](https://www.npmjs.com/package/@manycore/custom-miniapp-sdk)
+    - 增加获取所有可用的app的Service `MiniAppAvailableAppService `；
+    - 增加启动本地小程序的API `bootstrapDev`;
