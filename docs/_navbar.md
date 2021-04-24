@@ -1,2 +1,2 @@
 - [酷家乐](https://www.kujiale.com/)
-- [快速上手](/QuickStart/accessGuide.md)
+- [快速上手](/mini-app/quick-start/accessGuide)

@@ -1,6 +1,18 @@
 ## 安装SDK
 
-安装由酷家乐提供的`custom-miniapp-sdk`，由于目前还未发布在npm上，可[点击下载](//qhstaticssl.kujiale.com/newt/101687/application/xzipcompressed/1612168464139/5F9123800C9B2AD470E2EFD73302206E.zip)。 下载后解压至项目`node_modules`即可。
+####  使用 npm 或 yarn 安装
+
+```
+$ npm install @manycore/custom-miniapp-sdk
+
+```
+
+```
+$ yarn add @manycore/custom-miniapp-sdk
+
+```
+
+如果你的网络环境不佳，推荐使用 [cnpm](https://github.com/cnpm/cnpm)。
 
 ## 按需引入
 
