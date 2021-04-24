@@ -7,4 +7,4 @@
 * 工具中启动、运行，与主场景交互
 
 [酷家乐](https://www.kujiale.com/)
-[Get Started](/Introduction/index.md)
+[快速上手](/mini-app/index.md)
