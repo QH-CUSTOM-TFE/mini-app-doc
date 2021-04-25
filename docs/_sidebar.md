@@ -31,7 +31,6 @@
         - [select](/custom-sdk/MiniAppSelectModelService/select.md)
         - [setSelectAbleByCategories](/custom-sdk/MiniAppSelectModelService/setSelectAbleByCategories.md)
         - [setSelectedByCategories](/custom-sdk/MiniAppSelectModelService/setSelectedByCategories.md)
-- [项目实战](/a)
 - [常见问题](/question/index.md)
 - [变更日志](/change-log/index.md)
 <!-- - [开发](README.md) -->
