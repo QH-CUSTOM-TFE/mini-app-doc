@@ -6,7 +6,7 @@
 
 ``` js
 import { sappSDK } from 'servkit';
-import { MiniAppModelVisibleService } from 'custom-miniapp-sdk';
+import { MiniAppModelVisibleService } from '@manycore/custom-miniapp-sdk';
 
 const option = {
   pIds: 2170,
@@ -14,7 +14,7 @@ const option = {
   childAndAssembly: true,
 };
 
-const modelVisibleService = sappSDK.getService(MiniAppModelVisibleService);
+const modelVisibleService = await sappSDK.getService(MiniAppModelVisibleService);
 if (modelVisibleService) {
     modelVisibleService.showModelByCateId(option);
 }

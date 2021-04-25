@@ -1,42 +1,81 @@
-在开始前，请确认已经拥用了小程序的开发环境。
+在开始前，请确认已经拥用了小程序的开发环境及已经添加好了小程序入口。
 
-酷家乐开放给三方的小程序，仅支持以iframe形式加载；也就是说，任何一个Web程序，均可以快速转换成酷家乐的小程序。
+酷家乐开放给三方的小程序，仅支持以`iframe`形式加载；也就是说，任何一个`Web`程序，均可以快速转换成酷家乐的小程序。
 
 ## 全新开始
 
-默认情况下，提供的小程序模板是基于
+默认情况下，提供的小程序模板是基于`Typescript+React`开发
 
 ```bash
 git clone https://github.com/QH-CUSTOM-TFE/custom-mini-app-example.git
 ```
 
-打开源码中`README.md`文件，执行相关的命令即可（前提是已经安装了`nodejs`）。命令如下：
+### 从已有项目开始
 
-- 全局安装yarn(项目启动必须使用yarn,目前暂不支持npm)
+#### 安装`servkit`
 
-`npm install yarn -g`
- 
-- 进入至项目根目录，执行以下命令，安装依赖
+`servkit`支持通过cdn引入，或npm包安装，如果你仅简单的测试，可以使用新建的`html`, 直接引入
 
-`yarn`
- 
-- 启动项目
+```html
+<!-- 不推荐 -->
+<script src="https://cdn.jsdelivr.net/npm/servkit/index.min.js"></script>
+```
 
-`yarn start`
+通过`yarn`或`npm`安装
 
----
+```bash
+yarn add servkit # 或者 npm i servkit
+```
 
-项目默认启动地址为：`http://localhost:3000`, 按照[环境准备](/mini-app/front-work/index.md)中的步骤添加本地开发入口，小程序链接填写此处的`http://localhost:3000`即可。
+#### 安装 小程序sdk
 
-本地入口添加完毕，即可在设计工具中打开小程序。
-## 从已有项目开始
+如果你仅仅简单的弹出页面，而不需要调用工具相关的API，你可以忽略以下步骤：
 
-接入小程序
+通过 cdn 快入引入到项目
+
+```html
+<!-- 不推荐 -->
+<script src="https://cdn.jsdelivr.net/npm/@manycore/custom-miniapp-sdk/index.min.js"></script>
+```
+
+通过`yarn`或`npm`安装
+
+```bash
+yarn add @manycore/custom-miniapp-sdk # 或者 npm i @manycore/custom-miniapp-sdk
+```
+
+接下来，我们在小程序页面打开时，弹出一个提示信息，代码如下：
+
+```javascript
+import { sappSDK } from 'servkit';
+import { MiniAppToastService } from '@manycore/custom-miniapp-sdk';
+
+sappSDK.setConfig({
+    async onShow(sdk) {
+        const toastService = await sdk.service(MiniAppToastService);
+        await toastService.success('小程序启动成功！');
+    }
+}).start();
+```
+
+通过sappSDK，启动小程序，并在小程序显示时，调用`api`，弹出成功提示。
+
+### web项目中，快速接入小程序
+
+为保证时序问题，需要先保证sapp正常启动，然后再启动应用。可以将自己应用启动放在`sapp`启动之后，如下：
+
+```typescript
+sappSDK.setConfig({}).start().then( () => {
+    // todo 启动第三方应用
+});
+```
 
 ### vue项目中接入小程序
+
+同上，web项目中快速接入时
 
 ### react项目中接入小程序
 
 ### angular项目中接入小程序
 
-### 其他项目中，快速接入
+

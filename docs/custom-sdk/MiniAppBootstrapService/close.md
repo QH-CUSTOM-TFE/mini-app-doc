@@ -6,10 +6,10 @@
 
 ```js
 import { sappSDK } from 'servkit';
-import { MiniAppBootstrapService } from 'custom-miniapp-sdk';
+import { MiniAppBootstrapService } from '@manycore/custom-miniapp-sdk';
 
 const onExit = () => {
-    const bootstrapService = sappSDK.getService(MiniAppBootstrapService);
+    const bootstrapService = await sappSDK.getService(MiniAppBootstrapService);
     if (bootstrapService) {
         bootstrapService.close();
     }

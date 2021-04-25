@@ -4,12 +4,10 @@
 
 ``` 
 $ npm install servkit
-
 ```
 
 ``` 
 $ yarn add servkit
-
 ```
 
 如果你的网络环境不佳，推荐使用 [cnpm](https://github.com/cnpm/cnpm)。
@@ -116,7 +114,7 @@ bootstrap().then(() => {
 
 点击添加后的入口，即可看见本地小程序在酷家乐设计工具中打开, 如下图：
 
-![小程序启动示例](//qhstaticssl.kujiale.com/newt/101687/image/png/1612162676461/1E2A63269C313B7FE5A4BE7B2346BC48.png)
+![小程序启动示例](https://qhstaticssl.kujiale.com/newt/101687/image/png/1612162676461/1E2A63269C313B7FE5A4BE7B2346BC48.png)
 
  {docsify-updated}
 

@@ -3,26 +3,20 @@
 ####  使用 npm 或 yarn 安装
 
 ```
-$ npm install @manycore/custom-miniapp-sdk
-
-```
-
-```
-$ yarn add @manycore/custom-miniapp-sdk
-
+$ npm install @manycore/custom-miniapp-sdk  # yarn add @manycore/custom-miniapp-sdk
 ```
 
 如果你的网络环境不佳，推荐使用 [cnpm](https://github.com/cnpm/cnpm)。
 
 ## 按需引入
 
-根据需要使用的service从`custom-miniapp-sdk`中按需引入.
+根据需要使用的service从`@manycore/custom-miniapp-sdk`中按需引入.
 
 > [!warning]
 > 未开通对应的service的权限将无法使用，使用之前请联系酷家乐开发人员申请开通权限!
 
 ```js
-import { MiniAppToastService } from 'custom-miniapp-sdk'; 
+import { MiniAppToastService } from '@manycore/custom-miniapp-sdk'; 
 ```
 
 ## 与设计工具通信
@@ -63,7 +57,7 @@ toast.loading('loading提示信息！');
 ```js
 import './index.css'
 import { sappSDK } from 'servkit';
-import { MiniAppToastService } from 'custom-miniapp-sdk';
+import { MiniAppToastService } from '@manycore/custom-miniapp-sdk';
 
 function App() {
 
@@ -91,7 +85,7 @@ export default App;
 
 预览效果：
 
-![提示信息预览效果](//qhstaticssl.kujiale.com/newt/101687/image/png/1612170123370/712F351B773D6F487B102E4345E2A20C.png)
+![提示信息预览效果](https://qhstaticssl.kujiale.com/newt/101687/image/png/1612170123370/712F351B773D6F487B102E4345E2A20C.png)
 
 ?> 更多的SDK service后续章节将会详细介绍！
 

@@ -8,7 +8,7 @@
 
 在【工具箱】下打开【小程序实验室】，进入到小程序实验室。
 
-![进入小程序实验室](//qhstaticssl.kujiale.com/newt/101687/image/png/1615277874029/CDE03EB923F8AB5455F55CBD371EECC3.png)
+![进入小程序实验室](https://qhstaticssl.kujiale.com/newt/101687/image/png/1615277874029/CDE03EB923F8AB5455F55CBD371EECC3.png)
 
 小程序实验室分为以下三个模块：
 
@@ -24,11 +24,11 @@
 
    - 酷家乐小程序 SDK 提供的基本功能演示。
 
-### 添加小程序入口
+### 添加小程序开发入口
 
 在小程序实验室-【开发入口】模块下新增小程序入口；
 
-![新增入口](//qhstaticssl.kujiale.com/newt/101687/image/png/1615278098122/F9B0AD5C849BB5432CF722EF722729D8.png)
+![新增入口](https://qhstaticssl.kujiale.com/newt/101687/image/png/1615278098122/F9B0AD5C849BB5432CF722EF722729D8.png)
 
 #### 入口配置释义
 
@@ -52,7 +52,7 @@
 
    小程序页面会在右侧加载，并包含顶部栏；
 
-   ![右侧栏](//qhstaticssl.kujiale.com/newt/101687/image/png/1615282391203/0B1860D2728B07DCCF9E8ED095907CB8.png)
+   ![右侧栏](https://qhstaticssl.kujiale.com/newt/101687/image/png/1615282391203/0B1860D2728B07DCCF9E8ED095907CB8.png)
 
 2. **居中弹层**
 
@@ -61,13 +61,13 @@
    - **自定义宽度**：默认值 480；
    - **自定义高度**：默认值 700；
 
-   ![居中弹层](//qhstaticssl.kujiale.com/newt/101687/image/png/1615282367742/6D0F7281D51467BCA44D291B2ABC5881.png)
+   ![居中弹层](https://qhstaticssl.kujiale.com/newt/101687/image/png/1615282367742/6D0F7281D51467BCA44D291B2ABC5881.png)
 
 3. **全屏**
 
    小程序页面会在整个页面加载，并提供了展示小程序名称和关闭小程序的顶部栏；
 
-   ![全屏](//qhstaticssl.kujiale.com/newt/101687/image/png/1615282372089/86E9582AE0FCC6023C8269DA1E2A2F29.png)
+   ![全屏](https://qhstaticssl.kujiale.com/newt/101687/image/png/1615282372089/86E9582AE0FCC6023C8269DA1E2A2F29.png)
 
 4. **可拖拽悬浮框**
 
@@ -85,7 +85,7 @@
    - **自定义宽度**：默认值 240；
    - **自定义高度**： 默认占据整个页面高度；
 
-   ![可拖拽悬浮框](//qhstaticssl.kujiale.com/newt/101687/image/png/1615282382756/FD025EFC870170496763E29984490DE1.png)
+   ![可拖拽悬浮框](https://qhstaticssl.kujiale.com/newt/101687/image/png/1615282382756/FD025EFC870170496763E29984490DE1.png)
 
 当入口配置信息填写完毕后，可直接点击添加的小程序名称启动小程序。
 {docsify-updated}
