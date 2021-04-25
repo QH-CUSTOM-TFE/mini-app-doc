@@ -6,10 +6,10 @@
 
 ```js
 import { sappSDK } from 'servkit';
-import { MiniAppSelectInnerSpaceService } from 'custom-miniapp-sdk';
+import { MiniAppSelectInnerSpaceService } from '@manycore/custom-miniapp-sdk';
 
 const unSelectedModel = () => {
-  const selectModelService = sappSDK.getService(MiniAppSelectInnerSpaceService);
+  const selectModelService = await sappSDK.getService(MiniAppSelectInnerSpaceService);
   if (selectModelService) {
     selectModelService.watcher.on((model) => {
       console.log(model);

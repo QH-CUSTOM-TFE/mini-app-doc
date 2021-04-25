@@ -6,10 +6,10 @@
 
 ``` js
 import { sappSDK } from 'servkit';
-import { MiniAppSelectInnerSpaceService } from 'custom-miniapp-sdk';
+import { MiniAppSelectInnerSpaceService } from '@manycore/custom-miniapp-sdk';
  
 const getSelectedModel = async () => {
-  const selectModelService = sappSDK.getService(MiniAppSelectInnerSpaceService);
+  const selectModelService = await sappSDK.getService(MiniAppSelectInnerSpaceService);
   if (selectModelService) {
       const model = await selectModelService.getSelectedInnerSpace();
       return model;

@@ -6,7 +6,7 @@
 
 ```js
 import { sappSDK } from 'servkit';
-import { MiniAppToastService } from 'custom-miniapp-sdk';
+import { MiniAppToastService } from '@manycore/custom-miniapp-sdk';
 
 const toast = await sappSDK.getService(MiniAppToastService);
 

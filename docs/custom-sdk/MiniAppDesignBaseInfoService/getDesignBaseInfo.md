@@ -6,12 +6,12 @@
 
 ```js
 import { sappSDK } from 'servkit';
-import { MiniAppDesignBaseInfoService, MiniAppToastService } from 'custom-miniapp-sdk';
+import { MiniAppDesignBaseInfoService, MiniAppToastService } from '@manycore/custom-miniapp-sdk';
 
 const {
     designBaseInfoService,
     toast,
-} = sappSDK.getService({
+} = await sappSDK.getService({
     designBaseInfoService: MiniAppDesignBaseInfoService,
     toast: MiniAppToastService,
 });
