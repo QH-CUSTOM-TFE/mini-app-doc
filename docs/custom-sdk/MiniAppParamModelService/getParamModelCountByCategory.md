@@ -6,9 +6,9 @@
 
 ``` js
 import { sappSDK } from 'servkit';
-import { MiniAppParamModelService } from 'custom-miniapp-sdk';
+import { MiniAppParamModelService } from '@manycore/custom-miniapp-sdk';
 
-const paramModelService = sappSDK.getService(MiniAppParamModelService);
+const paramModelService = await sappSDK.getService(MiniAppParamModelService);
 if (paramModelService) {
     const count = await paramModelService.getParamModelCountByCategory(2170);
     return count;

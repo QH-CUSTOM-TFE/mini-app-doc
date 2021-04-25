@@ -6,9 +6,9 @@
 
 ``` js
 import { sappSDK } from 'servkit';
-import { MiniAppSelectModelService } from 'custom-miniapp-sdk';
+import { MiniAppSelectModelService } from '@manycore/custom-miniapp-sdk';
  
-const service = sappSDK.getService(MiniAppSelectModelService);
+const service = await sappSDK.getService(MiniAppSelectModelService);
 if (service) {
     service.select('456343ddgt434s332');
 }

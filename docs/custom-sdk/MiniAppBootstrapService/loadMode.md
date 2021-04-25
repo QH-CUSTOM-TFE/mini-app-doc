@@ -6,7 +6,7 @@
 
 ``` js
 import { sappSDK } from 'servkit';
-import { MiniAppBootstrapService, MiniAppModeEnum } from 'custom-miniapp-sdk';
+import { MiniAppBootstrapService, MiniAppModeEnum } from '@manycore/custom-miniapp-sdk';
  
 export async function bootstrap() {
   try {

@@ -6,10 +6,10 @@
 
 ```js
 import { sappSDK } from 'servkit';
-import { MiniAppBootstrapService } from 'custom-miniapp-sdk';
+import { MiniAppBootstrapService } from '@manycore/custom-miniapp-sdk';
 
 const isOpened = async () => {
-    const bootstrapService = sappSDK.getService(MiniAppBootstrapService);
+    const bootstrapService = await sappSDK.getService(MiniAppBootstrapService);
     if (bootstrapService) {
         const flag = await bootstrapService.isOpened();
         return flag;
