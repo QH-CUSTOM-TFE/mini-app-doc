@@ -1,8 +1,8 @@
-酷家乐工具端的小程序是[servkit](/servkit/index.md)主从应用的一个实现！
+酷家乐工具端的小程序是servkit主从应用的一个实现！
 
 工具，相当于一个主应用。小程序，相当于servkit的从应用。
 
-在工具端，通过`servkit`的`SappMGR`，来维护小程序的[生命周期](/mini-app/life-cycle/index.md)（创建、显示、隐藏、关闭）。另外，小程序可以调用已授权的[API](/custom-sdk/index.md)，获得工具相关的能力。
+在工具端，通过`servkit`的`SappMGR`，来维护小程序的生命周期（创建、显示、隐藏、关闭）。另外，小程序可以调用已授权的[API](/custom-sdk/MiniAppSelectModelService.md)，获得工具相关的能力。
 
 #### 小程序发展史
 
