@@ -6,6 +6,8 @@
 
 ### 打开小程序实验室
 
+[查看小程序实验室视频演示](https://qhstaticssl.kujiale.com/newt/101134/video/mp4/1621240587751/E7127A73AB964199E9CFD727C8B4DE2E.mp4)
+
 在【工具箱】下打开【小程序实验室】，进入到小程序实验室。
 
 ![进入小程序实验室](https://qhstaticssl.kujiale.com/newt/101687/image/png/1615277874029/CDE03EB923F8AB5455F55CBD371EECC3.png)
